@@ -1,0 +1,5 @@
+- hosts: node #localhost
+  vars:
+    reboot: false
+  roles:
+  - ansible-role-Docker
